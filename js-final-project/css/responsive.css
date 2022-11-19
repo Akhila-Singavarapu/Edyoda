@@ -1,0 +1,833 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media only screen and (min-width: 689px) and (max-width: 1000px) {
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .logo img {
+        height: 20px;
+    }
+
+    .logo:before {
+        right: -9px;
+        width: 80%;
+    }
+
+    #mynav li a {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 5px 10px;
+    }
+
+    #mynav li input {
+        font-size: 10px;
+    }
+
+    .logo:after {
+        right: 35px;
+        width: 70%;
+    }
+
+    .cart i {
+        font-size: 20px;
+        margin: 0px 10px;
+        cursor: pointer;
+    }
+
+    .cart img {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin: 0px 10px;
+    }
+
+    .carousel img {
+        margin: 20px 0px;
+        padding: 0px 30px;
+        overflow: hidden;
+    }
+
+    .cloth-section {
+        padding-top: 80px;
+    }
+
+    .access-section {
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .cloth-container {
+        padding: 30px;
+        margin: 0 auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width: 100%;
+    }
+
+    .access-container {
+        padding: 30px;
+        margin: 0 auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .info-card {
+        padding: 10px;
+    }
+
+    .footer-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        height: 40px;
+    }
+
+    .foot-list li a {
+        font-size: 12px;
+    }
+
+    .links {
+        line-height: 2.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links p {
+        font-size: 13px;
+    }
+
+    .loc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loc i {
+        font-size: 15px;
+    }
+
+    .foot-addr {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .loc p {
+        font-size: 13px;
+    }
+
+    .loc p {
+        line-height: 1rem;
+    }
+
+    .social {
+        width: 50%;
+        line-height: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .social h5 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .social p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* Single Product page styling */
+    #prod_page {
+        padding: 120px 50px 30px;
+    }
+
+    .prev_img img {
+        height: 70px;
+    }
+
+    .left_col img {
+        height: 500px;
+        width: 300px;
+    }
+
+    .right-col {
+        padding: 0px 20px;
+    }
+
+    #prod_name {
+        font-size: 25px;
+    }
+
+    #prod_brand {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .descr {
+        line-height: 1rem;
+    }
+
+    #desc {
+        font-size: 15px;
+        line-height: 1.3rem;
+    }
+
+    .off {
+        line-height: 2rem;
+        margin: 8px 0px;
+    }
+
+    .off p:nth-child(1) {
+        font-size: 18px;
+        color: #a6a6a6;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .off p:nth-child(2) {
+        font-size: 20px;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    #size-list li {
+        font-size: 14px;
+        margin-right: 10px;
+        padding: 5px 18px;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 689px) {
+
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .logo img {
+        height: 30px;
+    }
+
+    .logo:before {
+        right: -9px;
+        width: 80%;
+    }
+
+    .logo:after {
+        right: 40px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .bars-xmark {
+        display: block;
+        color: black;
+        font-size: 23px;
+    }
+
+    .carousel img {
+        margin: 20px 0px;
+        padding: 0px 30px;
+        overflow: hidden;
+    }
+
+    .cloth-section {
+        padding-top: 30px;
+    }
+
+    .access-section {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .cloth-container {
+        padding: 30px;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width: 100%;
+    }
+
+    .access-container {
+        padding: 30px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+
+    .info-card {
+        padding: 10px;
+        margin-top: -10px;
+        line-height: 2rem;
+    }
+
+    .info-card h2 {
+        color: #2f4744;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        width: auto;
+        text-align: center;
+    }
+
+    .info-card h4 {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        width: auto;
+    }
+
+    .footer-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        height: 40px;
+    }
+
+    .foot-list li a {
+        font-size: 12px;
+    }
+
+    .links {
+        line-height: 2.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links p {
+        font-size: 13px;
+    }
+
+    .loc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loc i {
+        font-size: 15px;
+    }
+
+    .foot-addr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .loc p {
+        font-size: 13px;
+    }
+
+    .loc p {
+        line-height: 1rem;
+    }
+
+    .social {
+        width: 100%;
+        line-height: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .social h5 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .social p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* Single product page styling */
+
+    .sec-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prod_page {
+        padding: 100px 50px;
+    }
+
+    .left_col {
+        height: 450px;
+        width: 350px;
+        position: relative;
+    }
+
+    .left_col img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .right-col {
+        padding: 30px 0px;
+        position: relative;
+        height: 500px;
+        width: 100%;
+    }
+
+    .rr {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .prod_desc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prod_prev {
+        order: -4;
+    }
+
+    .prev_img img {
+        height: 80px;
+    }
+
+    #prod_name {
+        font-size: 19px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: auto;
+        font-weight: 300;
+    }
+
+    #prod_brand {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .descr {
+        line-height: 1.5rem;
+    }
+
+    #desc {
+        line-height: 1.3rem;
+    }
+
+    .off {
+        line-height: 1.6rem;
+        margin: 7px 0px;
+    }
+
+    #size-list li {
+        font-size: 13px;
+        margin-right: 10px;
+        padding: 5px 15px;
+    }
+
+    .soc-med i {
+        margin: 15px;
+        font-size: 30px;
+    }
+
+    .order {
+        line-height: 1rem;
+        padding-top: 10px;
+    }
+
+    .order img {
+        height: 180px;
+        margin: 10px 0px;
+    }
+
+    .order h5 {
+        font-size: 23px;
+        margin: 10px 0px;
+
+    }
+
+    .order h6 {
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+
+    #cart-sec {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 480px) {
+
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .logo h1 {
+        font-size: 15px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .srch {
+        display: block;
+        font-size: 12px;
+        color: white;
+    }
+
+    .bars-xmark {
+        display: block;
+        color: black;
+        font-size: 20px;
+    }
+
+    .x-mark {
+        display: none;
+    }
+
+    .cart i {
+        font-size: 20px;
+    }
+
+    .cart img {
+        height: 35px;
+        width: 35px;
+        margin-left: 10px;
+    }
+
+    .cart span {
+        font-size: 9px;
+        padding: 3px 5px;
+    }
+
+    .carousel img {
+        margin: 20px 0px;
+        padding: 0px 30px;
+        overflow: hidden;
+    }
+
+    .cloth-section {
+        padding-top: 30px;
+    }
+
+    .access-section {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .cloth-section h1,
+    .access-section h1 {
+        font-size: 28px;
+        padding-left: 25px;
+    }
+
+    .cloth-container {
+        padding: 30px;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        width: 100%;
+    }
+
+    .access-container {
+        padding: 30px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+
+
+    .info-card {
+        padding: 10px;
+        margin-top: -10px;
+        line-height: 2rem;
+    }
+
+    .info-card h2 {
+        color: #2f4744;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        width: auto;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .info-card h4 {
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        color: black;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        width: auto;
+    }
+
+    .free p:nth-child(2) {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .free p:nth-child(1) {
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    .buy p:nth-child(1) {
+        font-size: 17px;
+    }
+
+    .buy button {
+        font-size: 16px;
+    }
+
+    .footer-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        height: 40px;
+    }
+
+    .foot-list li a {
+        font-size: 9px;
+    }
+
+    .links {
+        line-height: 2.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links p {
+        font-size: 13px;
+    }
+
+    .loc {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .loc i {
+        font-size: 15px;
+    }
+
+    .foot-addr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .loc p {
+        font-size: 13px;
+    }
+
+    .loc p {
+        line-height: 1rem;
+    }
+
+    .social {
+        width: 100%;
+        line-height: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .social h5 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .social p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .soc-med i {
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .copy {
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+
+    .copy span {
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+
+    .order {
+        line-height: 1rem;
+        padding-top: 10px;
+    }
+
+    .order img {
+        height: 180px;
+        margin: 10px 0px;
+    }
+
+    .order h5 {
+        font-size: 23px;
+        margin: 10px 0px;
+
+    }
+
+    .order h6 {
+        font-size: 14px;
+        margin: 10px 0px;
+
+    }
+
+    /* Single product page styling */
+
+    .sec-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prod_page {
+        padding: 100px 50px;
+    }
+
+    .left_col {
+        height: 350px;
+        width: 200px;
+        position: relative;
+    }
+
+    .left_col img {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .right-col {
+        padding: 30px 0px;
+        position: relative;
+        height: 500px;
+        width: 100%;
+    }
+
+    .rr {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .prod_desc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prod_prev {
+        order: -4;
+    }
+
+    .prev_img img {
+        height: 60px;
+    }
+
+    .prev_img {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        margin: 0px;
+    }
+
+    #prod_name {
+        font-size: 19px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: auto;
+        font-weight: 300;
+    }
+
+    #prod_brand {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .descr {
+        line-height: 1.5rem;
+    }
+
+    #desc {
+        line-height: 1.3rem;
+    }
+
+    .off {
+        line-height: 1.6rem;
+        margin: 7px 0px;
+    }
+
+    #size-list li {
+        font-size: 11px;
+        margin-right: 5px;
+        padding: 5px 10px;
+    }
+
+
+
+}
